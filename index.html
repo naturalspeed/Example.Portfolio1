@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script      src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    </script>
+  </head>
+
+
+
+  <!-- https://docs.google.com/spreadsheets/d/1F4Eyd92M92uselvQqPaIjr2Z40lrSzn8C2EMIkzQTX8/edit#gid=0 -->
+
+
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <p class="logo">XG</p>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Myself</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <section class="banner"></section>
+        <div class="header-text">
+          <p>Rochdale Sixth Form Student</p>
+          <h1>
+            Hi, I'm Xuanming <br />
+            Guo From England
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!----------about----------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/image_3.jpeg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="comment_subtitle">About Me</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
+              maxime libero consequatur, obcaecati animi dolorum iusto
+              perspiciatis labore blanditiis commodi fuga reprehenderit,
+              architecto earum ipsam. Minima fugiat odit ducimus expedita
+              asperiores veniam alias? Quasi molestiae praesentium eaque
+              mollitia quae provident, illo ipsa, suscipit ut ad eius excepturi
+              doloribus reprehenderit delectus repellat autem ipsum sapiente
+              nulla aspernatur voluptas sit possimus cumque pariatur architecto!
+              Aliquam quam temporibus, quia doloremque et at non obcaecati quas
+              soluta illo optio eum? Omnis placeat voluptate reiciendis, ipsa
+              voluptas veritatis consectetur distinctio quod velit? Expedita eos
+              unde placeat distinctio id, blanditiis iste, suscipit facilis
+              officiis ullam eum.
+            </p>
+
+            <div class="tab_titles">
+              <p class="tab_links active_link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab_links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab_links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab_contents active_tab" id="skills">
+              <ul>
+                <li><span>Swimming</span><br />Former National Champion</li>
+                <li><span>Coding</span><br />C#, JS, CSS, HTML</li>
+                <li><span>Lifeguarding</span><br />National Pool Lifeguard Qualification Generation 10</li>
+                <li><span>Chess</span><br />1200 elo</li>
+              </ul>
+            </div>
+            <div class="tab_contents" id="experience">
+              <ul>
+                <li><span>Swimming</span><br />8 years</li>
+                <li><span>Coding</span><br />6 years</li>
+                <li><span>Lifeguarding</span><br />2 months</li>
+                <li><span>Chess</span><br />2 years</li>
+              </ul>
+            </div>
+            <div class="tab_contents" id="education">
+              <ul>
+                <li><span>Huaxia Chinese School</span><br />2015-2021</li>
+                <li><span>Bury Grammar School</span><br />2012-2023</li>
+                <li><span>Rochdale Sixth Form College</span><br />2023-</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------services----------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="comment_subtitle">Services</h1>
+        <div class="services_list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatem quas quis incidunt dicta labore ducimus laboriosam,
+              alias fugit dolor repellat blanditiis inventore pariatur atque
+              quam.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatem quas quis incidunt dicta labore ducimus laboriosam,
+              alias fugit dolor repellat blanditiis inventore pariatur atque
+              quam.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fab fa-app-store"></i>
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatem quas quis incidunt dicta labore ducimus laboriosam,
+              alias fugit dolor repellat blanditiis inventore pariatur atque
+              quam.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="comment_subtitle">My Work</h1>
+            <div class="work_list">
+                <div class="work">
+                    <img src="Images/NA_better.jpg">
+                    <div class="layer">
+                        <h3>Lorem, ipsum.</h3> 
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/NA_better.jpg">
+                    <div class="layer">
+                        <h3>Lorem, ipsum.</h3> 
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/NA_better.jpg">
+                    <div class="layer">
+                        <h3>Lorem, ipsum.</h3> 
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----------- contact------------->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact_left">
+            <h1 class="comment_subtitle">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>xuanmingguo2314@outlook.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>07421146046</p>
+            <div class="social_icons">
+              <a href="https://www.youtube.com/channel/UCO9v5Jf7ff1Ns18Q2golv8g"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+              <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://google.com/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <!-- under this line. When I have a CV link the file into the portfolio
+            folder and link it in the href below-->
+            <a href="" class="btn btn2" download>Download CV</a>
+          </div>
+          <div class="contact_right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="scripts.js"></script>
+    
+  </body>
+</html>
